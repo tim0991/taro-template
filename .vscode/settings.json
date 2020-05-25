@@ -1,0 +1,29 @@
+{
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.preferences": { "jsx.classAttributeName": "styleName" },
+  "emmet.triggerExpansionOnTab": true,
+
+  "eslint.options": {
+    "extensions": [".js", ".jsx"]
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact"],
+
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact"
+  },
+
+  "files.watcherExclude": {
+    "**/dist/**": true,
+    "**/vendor/**": true
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
